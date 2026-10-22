@@ -1,0 +1,6 @@
+table,columns,rows,exact_duplicate_rows
+patients.parquet,4,30045,45
+sites.csv,3,5,0
+visits_north.csv,6,26297,35
+visits_south.csv,6,31074,35
+a1c_wide.parquet,3,29424,0

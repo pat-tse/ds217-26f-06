@@ -1,0 +1,10 @@
+,table,issue,decision,reason
+0,patients,exact duplicate rows,deleted the extra duplicates and kept the original,duplicates make the data confusing and inaccurate
+1,patients,gender spellings that are not a code,standardized the gender indentifications,standardizing makes it possible to count how much of each there is in the dataset
+2,patients,site codes needing normalization,standardized the capitalization and spacing,"theres only 3 sites, we want the data to reflect that"
+3,patients,birth_year sentinel 9999,set the 9999s to missing values,"the 9999 age is not a realistic value, it is better to have those as blank"
+4,visits,weight column named wt_kg in visits_south.csv,changed wt_kg to weight_kg,changing the name made it so visits north and south had the same naming for this column
+5,visits,sbp sentinel 999 and readings outside 70 through 250,made anything outside of 70 to 250 a 999,easily able to identify what is not a good reading if it is set as 999
+6,visits,impossible and loosely written visit dates,setting them to no value,it can be quite difficult to adjust date formats when there is a lot of variety
+7,visits,repeated patient_id and visit pairs,deleted repeats,"if it is the same patient id and visit time, then the duplicate is not needed"
+8,sites,repeated site_code rows,removed repeated rows,can get confusing if there is multiple of the same visit with the same site_code
