@@ -1,0 +1,29 @@
+patient_id,visit,visit_date,visit_time,sbp_mmhg,weight_kg,source_file,gender,birth_year,site_code,site_name,a1c_pct
+P00001,baseline,2026-03-06,14:40,146,52.4,visits_south,F,1966,S02,South Valley Clinic,7.3
+P00001,week12,2026-05-27,08:35,129,50.2,visits_south,F,1966,S02,South Valley Clinic,
+P00004,baseline,2026-02-25,11:15,142,106.2,visits_north,X,,N01,North Clinic,7.3
+P00088,baseline,2026-03-10,09:50,152,68.2,visits_north,F,1980,N01,North Clinic,8.4
+P00088,week12,2026-06-03,13:05,147,66.3,visits_north,F,1980,N01,North Clinic,7.6
+P00260,baseline,,08:55,70,80.4,visits_south,F,1979,E04,,9.5
+P00260,week12,2026-06-10,10:45,138,78.6,visits_south,F,1979,E04,,8.0
+P00446,baseline,,10:25,250,,visits_south,F,1946,S02,South Valley Clinic,6.5
+P00446,week12,2026-04-02,09:50,144,94.3,visits_south,F,1946,S02,South Valley Clinic,6.8
+P00487,baseline,2026-03-02,15:15,,103.0,visits_south,M,1959,S02,South Valley Clinic,7.9
+P00487,week12,2026-05-26,08:00,143,,visits_south,M,1959,S02,South Valley Clinic,7.8
+P00851,baseline,2026-03-17,08:15,,87.1,visits_north,F,1967,N01,North Clinic,7.9
+P00851,week12,2026-06-04,08:45,129,87.2,visits_north,F,1967,N01,North Clinic,7.3
+P02354,baseline,2026-03-05,14:05,127,69.5,visits_south,F,1966,S02,South Valley Clinic,6.6
+P02354,week12,2026-06-01,11:15,125,67.7,visits_south,F,1966,S02,South Valley Clinic,6.9
+P03836,baseline,2026-01-29,09:10,134,66.2,visits_north,F,1971,N01,North Clinic,7.0
+P03836,week12,2026-04-13,08:30,125,65.6,visits_north,F,1971,N01,North Clinic,6.6
+P05763,baseline,2026-02-27,10:10,161,103.7,visits_south,F,1960,S02,South Valley Clinic,7.3
+P05763,week12,2026-06-04,13:10,151,101.0,visits_south,F,1960,S02,South Valley Clinic,7.2
+P07510,baseline,2026-02-19,14:10,133,83.3,visits_south,F,1985,S02,South Valley Clinic,
+P07510,week12,2026-04-29,08:45,,82.0,visits_south,F,1985,S02,South Valley Clinic,
+P14287,baseline,2026-01-23,09:35,155,132.7,visits_north,M,1968,N01,North Clinic,7.4
+P14287,week12,2026-04-10,13:10,151,129.9,visits_north,M,1968,N01,North Clinic,6.8
+P16486,baseline,2026-01-27,09:15,164,86.0,visits_south,F,1950,S02,South Valley Clinic,7.1
+P16486,week12,2026-05-01,09:35,151,87.5,visits_south,F,1950,S02,South Valley Clinic,7.6
+P17390,baseline,2026-01-14,15:40,143,62.1,visits_north,F,1970,N01,North Clinic,9.3
+P17390,week12,2026-04-03,15:45,131,61.6,visits_north,F,1970,N01,North Clinic,8.4
+P30001,baseline,2026-03-10,15:20,161,95.6,visits_south,,,,,8.2
